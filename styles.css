@@ -29,7 +29,7 @@ h3 {
 
 ul {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
 }
 
 li {
@@ -37,11 +37,24 @@ li {
 }
 
 .nav-container {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.navlinks {
+    justify-content: left;
 }
 
 .logo {
     display: inline-flex;
+    justify-content: center;
+}
+
+.search-cart {
+    display: inline-flex;
+    justify-content: right;
 }
 
 .logo-image {
@@ -54,6 +67,11 @@ li {
     width: 26px;
 }
 
-.search-cart {
-    display: inline-flex;
+
+.search-box {
+    background-image: url(./assets/1200px-Google_Magnifying_Glass.svg.png);
+    background-position: right;
+    background-size: 26px;
+    background-repeat: no-repeat;
+    height: 30px;
 }
