@@ -1,3 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+
+body {
+    font-size: 20px;
+    font-family: "Segoe UI";
+}
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
 h3 {
-    
+    font-size: 30;
+}
+
+.header-container {
+    display: flex;
+}
+
+.logo {
 }
