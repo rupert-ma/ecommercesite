@@ -27,9 +27,33 @@ h3 {
     font-size: 30;
 }
 
-.header-container {
-    display: flex;
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li {
+    padding-left: 25px;
+}
+
+.nav-container {
+    display: inline-flex;
 }
 
 .logo {
+    display: inline-flex;
+}
+
+.logo-image {
+    height: 40px;
+    width: 40px;
+}
+
+.magnifying-glass {
+    height: 26px;
+    width: 26px;
+}
+
+.search-cart {
+    display: inline-flex;
 }
