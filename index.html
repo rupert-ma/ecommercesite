@@ -12,18 +12,12 @@
             <nav class="nav-container">
                 <div>
                     <ul>
-                        <div class="navlinks">
-                            <li><a href="#home">HOME</a></li>
-                        </div>
-                        <div>
-                            <li><a href="#about">ABOUT</a></li>
-                        </div>
-                        <div>
-                            <li><a href="#products">PRODUCTS</a></li>
-                        </div>
-                        <div>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </div>
+                        <li><a class="nav__li" href="#home">HOME</a></li>
+                        <li><a class="nav__li" href="#about">ABOUT</a></li>
+                        <li>
+                            <a class="nav__li" href="#products">PRODUCTS</a>
+                        </li>
+                        <li><a class="nav__li" href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div class="logo">
@@ -40,7 +34,7 @@
                 <div class="search-cart">
                     <div>
                         <form action="">
-                            <input type="text" class="search-box"/>
+                            <input type="text" class="search-box" />
                             <!-- <a href="#">
                                 <img
                                     src="./assets/1200px-Google_Magnifying_Glass.svg.png"
@@ -50,19 +44,15 @@
                             <!-- modify this in CSS to be within the input box -->
                         </form>
                     </div>
-                    <div><a href="#">CART(0)</a></div>
+                    <div><a class="cart" href="#">CART(0)</a></div>
                 </div>
             </nav>
-            <hr />
+            <hr class="nav-hr" />
         </header>
         <main>
             <section id="home" class="home-section">
-                <h2>CERAMICS CRAFTED BY HAND...</h2>
-                <h2>... FROM THE GROUND UP</h2>
-                <img
-                    src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg"
-                    alt="hands crafting a pottery bowl with gradient"
-                />
+                <div class="home-top"><h2>CERAMICS CRAFTED BY HAND...</h2></div>
+                <div class="home-bottom"><h2>... FROM THE GROUND UP</h2></div>
             </section>
             <section id="about" class="about-section">
                 <h2>ABOUT US</h2>
